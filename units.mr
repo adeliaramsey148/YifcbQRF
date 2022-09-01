@@ -6,7 +6,6 @@ module {
 
 private import "constants.mr"
 
-private import "../types/atomic_types.mr"
 private import "../types/conversions.mr"
 private import "../types/operations.mr"
 
@@ -45,7 +44,6 @@ public node units {
 
     // Volume
     output m3: 1.0;
-    output cc: cm * cm * cm;
     output mL: cc;
     output L: mL * 1000.0;
     output cubic_feet: foot * foot * foot;
